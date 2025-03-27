@@ -1,0 +1,14 @@
+{
+  "services": {
+    "web": {
+      "build": {
+        "dockerfile": "Dockerfile"
+      },
+      "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "APP_KEY": "base64:..."
+      }
+    }
+  }
+}
